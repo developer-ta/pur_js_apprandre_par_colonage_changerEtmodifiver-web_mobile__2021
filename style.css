@@ -43,7 +43,7 @@ section.option {
     /* margin-top: 54px; */
     margin-bottom: 40 px;
     top: Opx;
-    top: 56Px;
+    top: 8em;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -386,7 +386,7 @@ section.option {
 
     .shoeImage {
         /* transform: translate(0,3%); */
-        height: 600px;
+        height: 88em;
         /* width: 98%; */
         /* background-color: cadetblue; */
         /* border-radius: 15px 15px 0px 0Px; */
@@ -444,7 +444,7 @@ section.option {
         top: 0;
         overflow: hidden;
         width: 93.91%;
-        height: 45px;
+        height: 7em;
         /* padding-top: 13px; */
         box-shadow: 0px 3px 9px -3px grey;
         z-index: 1;
@@ -508,7 +508,7 @@ section.option {
     }
 
     .bag_icon {
-        font-size: 2rem;
+        font-size: 4rem;
         color: orange;
     }
 
