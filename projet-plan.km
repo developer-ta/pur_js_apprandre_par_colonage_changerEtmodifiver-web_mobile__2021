@@ -1,0 +1,207 @@
+{
+    "root": {
+        "data": {
+            "id": "cf4h9kzk4a00",
+            "created": 1634757772366,
+            "text": "projet"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cf4htewjc7c0",
+                    "created": 1634759326406,
+                    "text": "css",
+                    "layout_right_offset": {
+                        "x": 59,
+                        "y": -15
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf4htrcjpsw0",
+                            "created": 1634759353495,
+                            "text": "box-sizing"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf4htwhtnco0",
+                                    "created": 1634759364698,
+                                    "text": "https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf4ibbimwjk0",
+                            "created": 1634760729590,
+                            "text": "min-height"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf6o4xku3o80",
+                    "created": 1634980275636,
+                    "text": "js"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf6o517qf4w0",
+                            "created": 1634980283551,
+                            "text": "topic",
+                            "priority": 1
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf6o55ur7nk0",
+                            "created": 1634980293650,
+                            "text": "sizes",
+                            "priority": 2
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf6o7ghr40g0",
+                                    "created": 1634980473537,
+                                    "text": "sizes.forEach((size) => {\n\tselect.add(new Option(size));\n});"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf6o57lvfgw0",
+                            "created": 1634980297466,
+                            "text": "colors",
+                            "priority": 3,
+                            "layout_right_offset": {
+                                "x": 6,
+                                "y": 15
+                            },
+                            "note": "const colors = document.querySelectorAll(\".color div\");"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf6o5ay7cag0",
+                                    "created": 1634980304742,
+                                    "text": "colors",
+                                    "note": "const colors = document.querySelectorAll(\".color div\");",
+                                    "layout_right_offset": {
+                                        "x": 24,
+                                        "y": 2
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf6o5hzi19c0",
+                                            "created": 1634980320058,
+                                            "text": "colors.forEach((item, index) => {",
+                                            "background": "#4bacc6",
+                                            "color": "#000000",
+                                            "font-size": 16,
+                                            "resource": [],
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cf6ob9k5jlk0",
+                                                    "created": 1634980771901,
+                                                    "text": "item.addEventListener(\"click\", (event) => {",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cf6o71qtz080",
+                                                            "created": 1634980441434,
+                                                            "text": "item.style.background = item.getAttribute('data-color');",
+                                                            "resource": [
+                                                                "1"
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cf6o9clenpk0",
+                                                            "created": 1634980621779,
+                                                            "text": "  colors.forEach((item_2) => {\n\t        item_2.style.border = \"none\";\n\t        item_2.style.transform = \"none\";\n\n\t    })"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cf6oaiygs0o0",
+                                                            "created": 1634980713993,
+                                                            "text": "item.style.border = \"3px solid \";\n\t    item.style.transform = \"scale(1.25)\";"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cf6oc2db4d40",
+                                                            "created": 1634980834614,
+                                                            "text": "let color = event.target.getAttribute('data-color');\n\t    console.log(color);"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cf6oe08u1aw0",
+                                                            "created": 1634980986718,
+                                                            "text": "submit",
+                                                            "note": "const submit = document.querySelector('div.submit');"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cf6oeeemwhc0",
+                                                                    "created": 1634981017544,
+                                                                    "text": "submit.style.transform = \"scale(1.1)\";\n\t    submit.style.border = \"1px solid \";\n\t    submit.style.background = `${color}`;",
+                                                                    "layout_right_offset": {
+                                                                        "x": 0,
+                                                                        "y": 10
+                                                                    }
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cf6ph6ob0qg0",
+                                                            "created": 1634984056917,
+                                                            "text": "animation",
+                                                            "note": "//element.animate([{keyframes O%},{keyframes 100%}],{options});\n        \n        /*document.getElementById(\"tunnel\").animate([\n            // keyframes\n            {\n                transform: 'translateY(0px)'\n            },\n            {\n                transform: 'translateY(-300px)'\n            }], {\n            // timing options\n            duration: 1000,\n            iterations: Infinity\n        });*/\n        \n        \n        https://developer.mozilla.org/fr/docs/Web/API/Element/animate"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "snow-compact",
+    "version": "1.4.43"
+}
