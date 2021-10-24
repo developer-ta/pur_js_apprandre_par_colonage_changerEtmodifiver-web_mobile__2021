@@ -2,6 +2,7 @@
     /* margin: 0; */
     box-sizing: border-box;
     padding: 0px;
+    /* max-width: 100%; */
 }
 
 body {
@@ -20,11 +21,12 @@ body {
 .container_main {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     /* max-width: 768px; */
     image-rendering: -moz-crisp-edges;
     /* width: 100%; */
     align-items: center;
+    width: 100%;
 }
 
 section.option {
@@ -59,7 +61,7 @@ section.option {
 @media (min-width: 275px) and (max-width: 768px) {
     .main {
         display: flex;
-        width: 100%;
+        width: 96%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -125,7 +127,7 @@ section.option {
 
     .shoeImage {
         /* transform: translate(0,3%); */
-        height: 325px;
+        height: 550px;
         width: 100%;
         /* background-color: cadetblue; */
         /* border-radius: 15px 15px 0px 0Px; */
@@ -181,7 +183,7 @@ section.option {
         background-color: white;
         top: 0;
         overflow: hidden;
-        width: 65.91%;
+        width: 94.91%;
         height: 45px;
         /* padding-top: 13px; */
         box-shadow: 0px 3px 9px -3px grey;
@@ -318,7 +320,7 @@ section.option {
 (max-width: 1380px) and (min-width: 1380px) {
     .main {
         display: flex;
-        width: 100%;
+        width: 95%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -385,7 +387,7 @@ section.option {
     .shoeImage {
         /* transform: translate(0,3%); */
         height: 600px;
-        width: 98%;
+        /* width: 98%; */
         /* background-color: cadetblue; */
         /* border-radius: 15px 15px 0px 0Px; */
         /* overflow: hidden; */
@@ -408,6 +410,7 @@ section.option {
         padding-bottom: 40 px;
         justify-content: center;
         align-items: center;
+        width: 95%;
     }
 
     .number {
@@ -440,12 +443,12 @@ section.option {
         background-color: white;
         top: 0;
         overflow: hidden;
-        width: 99.91%;
+        width: 93.91%;
         height: 45px;
         /* padding-top: 13px; */
         box-shadow: 0px 3px 9px -3px grey;
         z-index: 1;
-        max-width: 768px;
+        /* max-width: 768px; */
     }
 
     h2 {
