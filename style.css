@@ -90,7 +90,7 @@ section.option {
         /* transform: translate(10px, 10px); */
         /* position: absolute; */
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .color>div {
@@ -101,8 +101,8 @@ section.option {
         cursor: pointer;
         border-radius: 50%;
         /* border: 2px solid; */
-        height: 4vh;
-        width: 4vh;
+        height: 6vh;
+        width: 6vh;
         cursor: pointer;
         box-shadow: 0px 0px 6px 0px grey;
     }
@@ -127,7 +127,7 @@ section.option {
 
     .shoeImage {
         /* transform: translate(0,3%); */
-        height: 550px;
+        height: 372px;
         width: 100%;
         /* background-color: cadetblue; */
         /* border-radius: 15px 15px 0px 0Px; */
